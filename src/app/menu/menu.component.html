@@ -1,0 +1,12 @@
+<div class="menu">
+    <div class="logo">
+        <img src="../assets/logo.svg" alt="">
+    </div>
+    <div class="menuArray">
+        <app-mein-array class="appMenu"
+                [menuPage]="me" 
+                *ngFor="let me of menuArray">
+        </app-mein-array>
+    </div>
+</div>
+<mat-icon>alarm</mat-icon>

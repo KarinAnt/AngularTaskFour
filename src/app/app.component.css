@@ -1,0 +1,9 @@
+.body{
+    display: flex;
+}
+.appMenu{
+    width: 20%;
+}
+.headerAndmein{
+    width: 80%;
+}
